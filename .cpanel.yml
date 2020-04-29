@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mfrogsco/public_html/
-    - /bin/cp -R /home/mfrogsco/public_html $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
